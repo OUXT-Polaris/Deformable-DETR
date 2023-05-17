@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "deformable-detr"
+version = "0.0.1"
+description = ""
+authors = ["Masaya Kataoka <ms.kataoka@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "deformable_detr"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pycocotools = "^2.0.6"
+tqdm = "^4.65.0"
+scipy = "^1.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
